@@ -35,89 +35,109 @@ arm.rotateCounterClockwise(); //demonstrates CamelCase
 
 /*
  1)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: missile
+ action 1: the missile is fired
+ action 2: the missile locks onto a target
+ action 3: the missile explodes
  */
-
+missile.fire();
+missile.selectTarget();
+missile.explode
 
 /*
  2)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: apple
+ action 1: the apple is eaten
+ action 2: the apple is sliced
+ action 3: the apple is thrown
  */
-
+apple.eat();
+apple.slice();
+apple.toss();  //looks like throw is already a defined function
 /*
  3)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: laptop
+ action 1: the laptop is powered on
+ action 2: the laptops fans turn on
+ action 3: the laptops brightness turns down
  */
-
+laptop.powerOn();
+laptop.fanPowerOn();
+laptop.brightnessDown();
 
 /*
  4)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: knife
+ action 1: the knife is dropped
+ action 2: the knife is used to cut fruit
+ action 3: the knife is thrown
  */
-
+knife.drop();
+knife.cutFruit();
+knife.toss();
 /*
  5)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: light
+ action 1: the light is dimmed
+ action 2: the light is turned on
+ action 3: the light is turned off
  */
-
+light.dim();
+light.powerOn();
+light.powerOff();
 
 /*
  6)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: burrito
+ action 1: the burrito is rolled
+ action 2: the buritto is heated up
+ action 3: the burrito is consumed
  */
-
+burrito.roll();
+burrito.setTemperature();
+burrito.consume();
 /*
  7)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: player
+ action 1: the player wins
+ action 2: the player loses
+ action 3: the player restarts the game
  */
-
+player.winGame();
+player.loseGame();
+player.restartGame();
 
 /*
  8)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: dog
+ action 1: take the dog for a walk
+ action 2: feed the dog
+ action 3: clean the dog
  */
-
+dog.walk();
+dog.feed();
+dog.clean();
 /*
  9)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: clothes
+ action 1: wash clothes
+ action 2: fold clothes
+ action 3: put the clothes away
  */
-
+clothes.wash();
+clothes.fold();
+clothes.placeInDresser();
 
 /*
  10)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun: beer
+ action 1: take the cap off the beer
+ action 2: drink the beer
+ action 3: recycle the bottle of beer
  */
-
+beer.removeCap();
+beer.drink();
+beer.recycleBottle();
 
 #endif
 
