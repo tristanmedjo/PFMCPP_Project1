@@ -70,7 +70,7 @@ laptop.brightnessDown();
  Noun: laser
  action 1: the laser fires
  action 2: block the laser beam
- action 3: the laser beam collides with the ground and is destroyed
+ action 3: the laser beam collides with the ground
  */
 laser.shoot();
 laser.block();
