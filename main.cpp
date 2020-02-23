@@ -36,30 +36,30 @@ arm.rotateCounterClockwise(); //demonstrates CamelCase
 /*
  1)
  Noun: missile
- action 1: the missile is fired
+ action 1: the missile launches
  action 2: the missile locks onto a target
  action 3: the missile explodes
  */
-missile.fire();
-missile.selectTarget();
-missile.explode
+missile.launch();
+missile.lockTarget();
+missile.explode();
 
 /*
  2)
- Noun: apple
- action 1: the apple is eaten
- action 2: the apple is sliced
- action 3: the apple is thrown
+ Noun: monkey
+ action 1: the monkey eats a banana
+ action 2: the monkey throws a rock
+ action 3: the monkey climbs a tree
  */
-apple.eat();
-apple.slice();
-apple.toss();  //looks like throw is already a defined function
+monkey.eatBanana();
+monkey.throwRock();
+monkey.climbTree();  
 /*
  3)
  Noun: laptop
- action 1: the laptop is powered on
- action 2: the laptops fans turn on
- action 3: the laptops brightness turns down
+ action 1: the laptop powers on
+ action 2: the laptop fans power on
+ action 3: the laptops brightness decreases
  */
 laptop.powerOn();
 laptop.fanPowerOn();
@@ -67,20 +67,20 @@ laptop.brightnessDown();
 
 /*
  4)
- Noun: knife
- action 1: the knife is dropped
- action 2: the knife is used to cut fruit
- action 3: the knife is thrown
+ Noun: laser
+ action 1: the laser fires
+ action 2: block the laser beam
+ action 3: the laser beam collides with the ground and is destroyed
  */
-knife.drop();
-knife.cutFruit();
-knife.toss();
+laser.shoot();
+laser.block();
+laser.destroy();
 /*
  5)
  Noun: light
- action 1: the light is dimmed
- action 2: the light is turned on
- action 3: the light is turned off
+ action 1: dim the light
+ action 2: turn the light on
+ action 3: turn the light off
  */
 light.dim();
 light.powerOn();
@@ -89,13 +89,13 @@ light.powerOff();
 /*
  6)
  Noun: burrito
- action 1: the burrito is rolled
- action 2: the buritto is heated up
- action 3: the burrito is consumed
+ action 1: roll the burrito
+ action 2: heat the burrito
+ action 3: deliver the burrito
  */
 burrito.roll();
 burrito.setTemperature();
-burrito.consume();
+burrito.deliver();
 /*
  7)
  Noun: player
@@ -110,34 +110,34 @@ player.restartGame();
 /*
  8)
  Noun: dog
- action 1: take the dog for a walk
- action 2: feed the dog
- action 3: clean the dog
+ action 1: the dog chases its tail
+ action 2: the dog barks
+ action 3: the dog goes to bed
  */
-dog.walk();
-dog.feed();
-dog.clean();
+dog.chaseTail();
+dog.bark();
+dog.goToSleep();
 /*
  9)
- Noun: clothes
- action 1: wash clothes
- action 2: fold clothes
- action 3: put the clothes away
+ Noun: maid
+ action 1: the maid washes clothes
+ action 2: the maid folds clothes
+ action 3: the maid puts the clothes away
  */
-clothes.wash();
-clothes.fold();
-clothes.placeInDresser();
+maid.washClothes();
+maid.foldClothes();
+maid.returnClothesToDresser();
 
 /*
  10)
  Noun: beer
- action 1: take the cap off the beer
- action 2: drink the beer
- action 3: recycle the bottle of beer
+ action 1: the beer sizzles
+ action 2: the beer gets lukewarm
+ action 3: the beer evaporates
  */
-beer.removeCap();
-beer.drink();
-beer.recycleBottle();
+beer.sizzle();
+beer.setTemperatureLukewarm();
+beer.evaporate();
 
 #endif
 
